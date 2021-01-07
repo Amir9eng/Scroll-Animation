@@ -44,5 +44,20 @@ h1 {
 .box h2 {
   font-size: 30px;
 }
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 15px;
+  }
+  .box {
+    width: 50px;
+    height: 20px;
+    border-radius: 3px;
+    overflow-x: hidden;
+    transform: translateX(400%);
+  }
+  .box h2 {
+    font-size: 14px;
+  }
+}
 
 /* https://stackoverflow.com/questions/10756313/javascript-jquery-map-a-range-of-numbers-to-another-range-of-numbers */
